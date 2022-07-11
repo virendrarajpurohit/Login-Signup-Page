@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+</head>
+<body>
+  <div class="main">
+    <div class="form-box">
+    <div class="button-box">
+      <div id="btn"></div>
+      <button class="toggle-btn" onclick="loggedin()">Login</button>
+      <button class="toggle-btn" onclick="registered()">Register</button>
+    </div>
+       <form id="login" class="input-grp">
+         <input type="text" class="input-field" placeholder="Enter Name" required>
+         <input type="password" class="input-field" placeholder="Enter Password" required>
+         <input type="checkbox" class="check-box"><span>Remember Password</span>
+         <button type="submit" class="submit-btn">Log In</button>
+       </form>
+      <form class="input-grp" id="register">
+        <input type="text" class="input-field" placeholder="Enter Name" required>
+        <input type="email" class="input-field" placeholder="Enter Email" required>
+        <input type="password" class="input-field" placeholder="Enter Password" required>
+         <input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
+         <button type="submit" class="submit-btn">Register</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
